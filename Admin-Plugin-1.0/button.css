@@ -1,0 +1,16 @@
+.button {
+	background-color:#00B16A;
+	color:#fff;
+	border:0;
+	cursor:pointer;
+	-webkit-transition-property:background;
+	-moz-transition-property:background;
+	-o-transition-property:background;
+	transition-property:background;
+	-webkit-transition-duration:.3s
+	-moz-transition-duration:.3s
+	-o-transition-duration:.3s
+	transition-duration:.3s;
+}
+
+.button:hover { background-color:#26A65B; }

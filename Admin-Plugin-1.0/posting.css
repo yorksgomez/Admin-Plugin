@@ -1,0 +1,28 @@
+/*--------IMPORT---------*/
+@import url('normalize.css');
+@import url('button.css');
+
+/*--------POST---------*/
+.post,
+.post * {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.post,
+.post textarea,
+.post input {
+	display:block;
+	padding:5px;
+}
+
+.post textarea,
+.post input { width:100%; }
+
+.post textarea { margin-bottom:5px; }
+
+.post input {
+	margin-top:5px;
+}
+
